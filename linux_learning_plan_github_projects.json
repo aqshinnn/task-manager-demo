@@ -1,0 +1,93 @@
+{
+  "name": "Linux Learning Plan",
+  "description": "Structured board for Month 1 and Month 2 Linux learning tasks",
+  "columns": [
+    {
+      "name": "MONTH 1",
+      "cards": [
+        {
+          "title": "Introduction to Linux",
+          "status": "To do",
+          "content": {
+            "description": "- [ ] History of Linux\n- [ ] Open-source\n- [ ] Distros"
+          }
+        },
+        {
+          "title": "Basic Linux Commands",
+          "status": "To do",
+          "content": {
+            "description": "- [ ] cd\n- [ ] ls\n- [ ] mkdir\n- [ ] touch\n- [ ] cp, mv, rm\n- [ ] system info"
+          }
+        },
+        {
+          "title": "Text File Commands",
+          "status": "To do",
+          "content": {
+            "description": "- [ ] cat\n- [ ] less, more\n- [ ] tail, tailf\n- [ ] head\n- [ ] vi, vim, nano"
+          }
+        },
+        {
+          "title": "Internal & External Commands",
+          "status": "To do",
+          "content": {
+            "description": "- [ ] internal vs external commands\n- [ ] alias\n- [ ] redirections"
+          }
+        },
+        {
+          "title": "Environment Variables and File Links",
+          "status": "To do",
+          "content": {
+            "description": "- [ ] .bash_profile, .bashrc\n- [ ] inode\n- [ ] hard link / symbolic link"
+          }
+        },
+        {
+          "title": "User and Group Management",
+          "status": "To do",
+          "content": {
+            "description": "- [ ] Part 1 \u2013 useradd, usermod, groupadd, id\n- [ ] Part 2 \u2013 passwd, shadow, group, gshadow\n- [ ] Part 3 \u2013 chmod, chown, ACL, umask"
+          }
+        }
+      ]
+    },
+    {
+      "name": "MONTH 2",
+      "cards": [
+        {
+          "title": "Network Management",
+          "status": "To do",
+          "content": {
+            "description": "- [ ] Part 1 \u2013 ip, nmcli, hostname\n- [ ] Part 2 \u2013 ifconfig, ping, resolv.conf"
+          }
+        },
+        {
+          "title": "Software Management",
+          "status": "To do",
+          "content": {
+            "description": "- [ ] RPM\n- [ ] Repo\n- [ ] Yum / DNF"
+          }
+        },
+        {
+          "title": "Process and Scheduled Jobs",
+          "status": "To do",
+          "content": {
+            "description": "- [ ] top, ps, kill\n- [ ] cronjob\n- [ ] at\n- [ ] tuned"
+          }
+        },
+        {
+          "title": "Disk Management",
+          "status": "To do",
+          "content": {
+            "description": "- [ ] Part 1 \u2013 fdisk, lsblk, mount\n- [ ] Part 2 \u2013 LVM basics\n- [ ] Part 3 \u2013 advanced LVM, filesystem"
+          }
+        },
+        {
+          "title": "Boot and System Services",
+          "status": "To do",
+          "content": {
+            "description": "- [ ] boot stages, grub2\n- [ ] systemd targets\n- [ ] runlevels"
+          }
+        }
+      ]
+    }
+  ]
+}
